@@ -1,0 +1,5 @@
+# api keys
+./sendgrid.env
+
+# dependencies
+/vendor
