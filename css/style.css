@@ -9700,3 +9700,11 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+.flag-language {
+  visibility: visible !important;}
+  @media (max-width: 1199.98px) {
+    .flag-language {
+      margin-top: -50px;
+      margin-right: -83px;
+      position: inherit;
+    } }
