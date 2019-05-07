@@ -5,7 +5,7 @@ require 'vendor/autoload.php';
 $email = new \SendGrid\Mail\Mail(); 
 $email->setFrom("xjoshmenx@gmail.com", "Example User");
 $email->setSubject("prueba de envio con send grid");
-$email->addTo("josuemendozasegovia@hotmail.com", "HOLA!");
+$email->addTo("xjoshmenx@gmail.com", "HOLA!");
 $email->addContent("text/plain", "and easy to do anywhere, even with PHP");
 $email->addContent(
     "text/html", "<strong>and easy to do anywhere, even with PHP</strong>"
