@@ -3,8 +3,8 @@
 require 'vendor/autoload.php';
 
 $email = new \SendGrid\Mail\Mail(); 
-$email->setFrom("test@example.com", "Example User");
-$email->setSubject("Sending with SendGrid is Fun");
+$email->setFrom("xjoshmenx@gmail.com", "Example User");
+$email->setSubject("prueba de envio con send grid");
 $email->addTo("josuemendozasegovia@hotmail.com", "HOLA!");
 $email->addContent("text/plain", "and easy to do anywhere, even with PHP");
 $email->addContent(
@@ -13,7 +13,7 @@ $email->addContent(
 $sendgrid = new \SendGrid(getenv('api-key-email'));
 try {
     $response = $sendgrid->send($email);
-    if($response==200){
+    if($response==202){
         echo 'good job';
     }
     else{
