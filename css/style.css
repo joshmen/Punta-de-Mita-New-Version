@@ -9702,35 +9702,90 @@ textarea.form-control {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
 .flag-language {
-  visibility: visible !important;}
-  @media (max-width: 1199.98px) {
-    .flag-language {
-      margin-top: -60px;
-      margin-right: -85px;
-      position: inherit;
-    } 
-    @media (max-width: 575.98px) {
-      .flag-language {
-        margin-top: -60px;
-        margin-right: -85px;
-        position: inherit;
-      } 
-    }
-  
-    @media (max-width: 767.98px) {
-      .flag-language {
-        margin-top: -60px;
-        margin-right: -85px;
-        position: inherit;
-      } 
-    }
-  
-    @media (max-width: 991.98px) {
-      .flag-language {
-        margin-top: -60px;
-        margin-right: -85px;
-        position: inherit;
-      } 
-    }
-  
+  visibility: visible !important;
+}
+@media (max-width: 1199.98px) {
+  .flag-language {
+    margin-top: -60px;
+    margin-right: -85px;
+    position: inherit;
   }
+ 
+@media (max-width: 575.98px) {
+  .flag-language {
+    margin-top: -60px;
+    margin-right: -85px;
+    position: inherit;
+  } 
+}
+
+@media (max-width: 767.98px) {
+  .flag-language {
+    margin-top: -60px;
+    margin-right: -85px;
+    position: inherit;
+  } 
+}
+
+@media (max-width: 991.98px) {
+  .flag-language {
+    margin-top: -60px;
+    margin-right: -85px;
+    position: inherit;
+  } 
+  }
+}
+.mita-kids-logo {
+  top: 40%;
+  left: 30%;
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  z-index: 1;
+}
+
+@media (max-width: 1199.98px) {
+  .mita-kids-logo {
+    top: 40%;
+    left: 30%;
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    z-index: 1;
+  }
+ 
+  @media (max-width: 575.98px) {
+    .mita-kids-logo {
+      margin-top: -115%;
+      margin-left: -12%;
+      width: 250px;
+      height: 200px;
+      position: absolute;
+      z-index: 1;
+    } 
+  }
+
+  @media (max-width: 767.98px) {
+    .mita-kids-logo {
+      margin-top: -115%;
+      margin-left: -12%;
+      width: 250px;
+      height: 200px;
+      position: absolute;
+      z-index: 1;
+    } 
+  }
+  
+  @media (max-width: 991.98px) {
+    .mita-kids-logo {
+      margin-top: -105%;
+      margin-left: -10%;
+      width: 250px;
+      height: 200px;
+      position: absolute;
+      z-index: 1;
+    } 
+  }
+}
+
+
